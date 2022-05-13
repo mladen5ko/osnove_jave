@@ -4,3 +4,10 @@ Kreirati novu java klasu Git_Zadatak1.java i u njoj ispisite na ekranu sve git n
 Commit-ujte ovo kao promenu “Predavanja 13.05 Git Zadatak 1” 
 Push-ujte na github
 
+Git zadatak
+Preimenovati fajl Git_Zadatak1.java u Git_Zadatak1_updated. Napomena: To radimo u intelij preko refactor
+Dodajte tekst zadataka u tekstovi_zadataka.txt
+Stage-ujte sve promene
+Commitujte porukom “Update file name”
+Push-ujte na github
+

@@ -20,4 +20,11 @@ Proverite da li git status ne evidentira taj fajl
 Commit-ujte promenu kao “Update gitignore file”
 Push-ujte na github
 
+Git zadatak
+Azurirajte tekstove zadataka
+Obrisite Git_Zadatak1_updated.java fajl
+Commitujte promenu kao “Delete class”
+Push-ujte promenu
+
+
 

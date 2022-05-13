@@ -11,3 +11,13 @@ Stage-ujte sve promene
 Commitujte porukom “Update file name”
 Push-ujte na github
 
+Git zadatak
+dopuniti .gitignore fajl novim redom tako da ignorise .log fajlove tako sto dodate novi red u fajl
+*.log
+Azurirajte tekstove zadataka
+Kreirati novi fajl u paketu sa imenom ovaj_fajl_se_ignorise.log
+Proverite da li git status ne evidentira taj fajl
+Commit-ujte promenu kao “Update gitignore file”
+Push-ujte na github
+
+

@@ -60,11 +60,8 @@ public class Transakcija {
         if (this.getUplatilac().getTrenutnoStanje() > transakcija) {
             this.getUplatilac().novoStanjaNaRacunu(
                     this.uplatilac.getTrenutnoStanje() - transakcija - this.provizija(transakcija));
-        }
-        if (this.getUplatilac().getTrenutnoStanje() > transakcija){
             this.getPrimalac().novoStanjaNaRacunu(this.primalac.getTrenutnoStanje() + transakcija);
-        }
-        else{
+        }else{
             System.out.println("Na racunu nema dovoljno sredstva za ovu transakciju.");
         }
     }

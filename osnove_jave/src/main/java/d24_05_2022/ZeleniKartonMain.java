@@ -9,7 +9,7 @@ public class ZeleniKartonMain {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         ArrayList<ZeleniKarton> ispiti = new ArrayList<ZeleniKarton>();
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 10; i++) {
             ZeleniKarton prvi = new ZeleniKarton();
             System.out.print("Unesite ime predmeta: ");
             String predmet = s.next();

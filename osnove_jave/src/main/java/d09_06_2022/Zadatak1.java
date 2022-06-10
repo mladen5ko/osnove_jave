@@ -22,6 +22,7 @@ public class Zadatak1 {
                 "src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
+        driver.manage().window().maximize();
         String url = "https://s.bootsnipp.com/iframe/WaXlr";
 
         driver.get(url);

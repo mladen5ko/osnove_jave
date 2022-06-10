@@ -11,8 +11,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //Unesite name,departmant i phone (uvek iste vrednost)
 //Trazenje po name atributu
 //Kliknite na zeleno Add dugme.
-//PAZNJA: Pogledajte strukturu stranice i videcete da se u svakom redu poslednje kolone javljaju dugmici edit, add, delete ali zbog prirode reda neki dugmici se vide a neki ne.
-//Morate da dohvatite uvek Add dugme iz poslednjeg reda tabele. Mozete koristeci index iz petlje, a mozete koristeci i last() fukncionalnost za xpath. Koristan link last mehnizma
+//PAZNJA: Pogledajte strukturu stranice i videcete da se u svakom redu poslednje kolone javljaju dugmici
+// edit, add, delete ali zbog prirode reda neki dugmici se vide a neki ne.
+//Morate da dohvatite uvek Add dugme iz poslednjeg reda tabele. Mozete koristeci index iz petlje,
+// a mozete koristeci i last() fukncionalnost za xpath. Koristan link last mehnizma
 //Cekanje od 0.5s
 //Na kraju programa ugasite pretrazivac.
 public class Zadatak2 {
@@ -21,6 +23,7 @@ public class Zadatak2 {
                 "src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
+        driver.manage().window().maximize();
         String url = "https://www.tutorialrepublic.com/snippets/bootstrap/table-with-add-and-delete-row-feature.php";
         String name = "Zika Zikic";
         String department = "Storage";
